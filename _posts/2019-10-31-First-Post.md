@@ -1,11 +1,12 @@
 ---
 layout: post
 title: What is Data Science!
+excerpt_separator: <!--more-->
 ---
 
 Hello and Welcome. This is my very first post on my webpage and I decided to start simple, but simply trying to define "What is Data Science".
 
-
+<!--more-->
 
 So, what is _Data Science_?
 Data Science has become a buzz word in the last decade or so. We can often hear discussions about it on many discussion groups all over the place. Programs, diplomas, and certificates are being offered over many well-known institutions across the globe.
