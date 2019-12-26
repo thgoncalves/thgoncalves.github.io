@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: photo-galery
 title: Photo galery
 permalink: /photo-galery/
 ---
