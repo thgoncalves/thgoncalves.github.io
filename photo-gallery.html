@@ -109,10 +109,4 @@ photos:
 
 ---
 
-<ul class="gallery">
-  {% for photo in page.photos %}
-
-      <img src="{{ site.baseurl }}{{ photo.image }}&w=200&h=200" alt="{{ photo.caption}}"/>
-
-  {% endfor %}
-</ul>
+{% include image-gallery.html folder="/uploads/album" %}
