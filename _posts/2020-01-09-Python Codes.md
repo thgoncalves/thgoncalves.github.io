@@ -176,6 +176,7 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
 2) %time (one %)
   - This also displays execution time but only for the code that preceeds it and not for the entire cell
   - here is an example using the same function
+  
   ``` python
   import time
 
