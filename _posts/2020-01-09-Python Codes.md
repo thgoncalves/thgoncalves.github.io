@@ -112,13 +112,13 @@ There is a handy dandy way to print LOTS of dashes:
 for counter, item in enumerate(myList):
     print(counter ,' - ',item)
 ```
-0  -  Kirk
-1  -  Spock
-2  -  McCoy
-3  -  Scott
-4  -  Uhura
-5  -  Chekov
-6  -  Sulu
+0  -  Kirk</br>
+1  -  Spock</br>
+2  -  McCoy</br>
+3  -  Scott</br>
+4  -  Uhura</br>
+5  -  Chekov</br>
+6  -  Sulu</br>
 
 ## 6) Enhancing Print function
 
