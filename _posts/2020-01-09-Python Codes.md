@@ -143,6 +143,8 @@ But now you can also use the following syntax:
 print(f'The division of {var1} by {var2} is {div}')
 ```
 
+The division of 50 by 10 is 5.0
+
 ## 7) Measure execution time
 
 It is common to have a specific code running for quite a long time. That is especially true when working with large datasets or with Neural Networks, for example.
