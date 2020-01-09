@@ -21,13 +21,16 @@ Sets are just like Lists and Tuples, with the difference that they cannot have m
 
 More information on Sets can be found here, on the official doc page: https://docs.python.org/2/library/sets.html
 
-```python
+``` python
 x = [1,2,2,3,2,4,5,3,5,6]
 print(x)
 ```
+
     [1, 2, 2, 3, 2, 4, 5, 3, 5, 6]
-```python
+
+``` python
 x = set(x)
 print(x)
 ```
+
     {1, 2, 3, 4, 5, 6}
