@@ -1,0 +1,105 @@
+  - image: /images/photos/20130212_Canon PowerShot S100_.jpg
+  - image: /images/photos/20130720_Canon EOS REBEL T3_2317.jpg
+  - image: /images/photos/20130926_Canon EOS REBEL T3_-4.jpg
+  - image: /images/photos/20140302_Canon EOS 7D_3051.jpg
+  - image: /images/photos/20140302_Canon EOS 7D_3052.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_-34.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_-50.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_-51.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_4460.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_4532.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_4539.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_4553.jpg
+  - image: /images/photos/20140427_Canon EOS 7D_4732.jpg
+  - image: /images/photos/20140608_Canon EOS 7D_4912.jpg
+  - image: /images/photos/20140617_Canon EOS 7D_-5.jpg
+  - image: /images/photos/20140617_Canon EOS 7D_5015-2.jpg
+  - image: /images/photos/20140617_Canon EOS 7D_5015.jpg
+  - image: /images/photos/20140617_Canon EOS 7D_5027.jpg
+  - image: /images/photos/20140706_Canon EOS 7D_-9.jpg
+  - image: /images/photos/20140715_Canon PowerShot S100_3.jpg
+  - image: /images/photos/20140717_Canon PowerShot S100_2141.jpg
+  - image: /images/photos/20140719_Canon EOS 7D_-23.jpg
+  - image: /images/photos/20140719_Canon EOS 7D_2.jpg
+  - image: /images/photos/20140719_Canon EOS 7D_5929.jpg
+  - image: /images/photos/20140719_Canon EOS 7D_5941.jpg
+  - image: /images/photos/20140719_Canon EOS 7D_6135.jpg
+  - image: /images/photos/20140722_Canon PowerShot S100_-20.jpg
+  - image: /images/photos/20140725_Canon PowerShot S100_-10.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_-22.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_-33.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6549.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6618.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6643-2.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6643.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6662.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6728.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6736.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6761.jpg
+  - image: /images/photos/20140726_Canon EOS 7D_6909.jpg
+  - image: /images/photos/20140730_Canon EOS 7D_.jpg
+  - image: /images/photos/20140803_Canon EOS 7D_7618.jpg
+  - image: /images/photos/20140823_Canon EOS 7D_7811.jpg
+  - image: /images/photos/20140901_Canon EOS 7D_8143.jpg
+  - image: /images/photos/20140902_Canon EOS 7D_-17-2.jpg
+  - image: /images/photos/20140902_Canon EOS 7D_-17.jpg
+  - image: /images/photos/20140902_Canon EOS 7D_2-16.jpg
+  - image: /images/photos/20140904_Canon EOS 7D_8636.jpg
+  - image: /images/photos/20140904_Canon EOS 7D_8657.jpg
+  - image: /images/photos/20140904_Canon EOS 7D_8661.jpg
+  - image: /images/photos/20140909_Canon EOS 7D_-25.jpg
+  - image: /images/photos/20140909_Canon EOS 7D_-30.jpg
+  - image: /images/photos/20140909_Canon EOS 7D_-41.jpg
+  - image: /images/photos/20140909_Canon EOS 7D_2-40.jpg
+  - image: /images/photos/20140909_Canon EOS 7D_9084.jpg
+  - image: /images/photos/20141012_Canon EOS 7D_-7.jpg
+  - image: /images/photos/20141012_Canon EOS 7D_0129.jpg
+  - image: /images/photos/20141116_Canon EOS 7D_2-2.jpg
+  - image: /images/photos/20141120_Canon EOS 7D_1896.jpg
+  - image: /images/photos/20141218_iPhone 6_-2.jpg
+  - image: /images/photos/20141218_iPhone 6_.jpg
+  - image: /images/photos/20141218_iPhone 6_2.jpg
+  - image: /images/photos/20150108_iPhone 6_.jpg
+  - image: /images/photos/20150113_Canon EOS 7D_319.jpg
+  - image: /images/photos/20150113_Canon EOS 7D_385.jpg
+  - image: /images/photos/20150118__-2.jpg
+  - image: /images/photos/20150613_Canon EOS 7D_-11.jpg
+  - image: /images/photos/20150613_Canon EOS 7D_-2.jpg
+  - image: /images/photos/20150613_Canon EOS 7D_-8.jpg
+  - image: /images/photos/20150613_Canon EOS 7D_.jpg
+  - image: /images/photos/20150620_Canon EOS 7D_-5.jpg
+  - image: /images/photos/20150912_Canon EOS 7D_-3.jpg
+  - image: /images/photos/20150912_Canon EOS 7D_.jpg
+  - image: /images/photos/20150912_Canon EOS 7D_595.jpg
+  - image: /images/photos/20150920_Canon EOS 7D_-10.jpg
+  - image: /images/photos/20150920_Canon EOS 7D_-7.jpg
+  - image: /images/photos/20150920_Canon EOS 7D_-9.jpg
+  - image: /images/photos/20150920_Canon EOS 7D_.jpg
+  - image: /images/photos/20150920_Canon EOS 7D_2-2.jpg
+  - image: /images/photos/0150920_Canon EOS 7D_2133.jpg
+  - image: /images/photos/20150920_Canon EOS 7D_2147.jpg
+  - image: /images/photos/20150921_Canon EOS 7D_-5.jpg
+  - image: /images/photos/20150921_Canon EOS 7D_-6.jpg
+  - image: /images/photos/20150921_Canon EOS 7D_.jpg
+  - image: /images/photos/20160130_Canon EOS 7D_-2.jpg
+  - image: /images/photos/20160306_Canon EOS 7D_351.jpg
+  - image: /images/photos/20160325_Canon EOS 7D_-15.jpg
+  - image: /images/photos/20160325_Canon EOS 7D_-21.jpg
+  - image: /images/photos/20160515_Canon EOS 7D_117.jpg
+  - image: /images/photos/20161006_Canon EOS 7D_158.jpg
+  - image: /images/photos/20161121_iPhone 7 Plus_2-2.jpg
+  - image: /images/photos/20161202_iPhone 7 Plus_008.jpg
+  - image: /images/photos/20161204_iPhone 7 Plus_011.jpg
+  - image: /images/photos/20170726_Canon EOS 7D_203.jpg
+  - image: /images/photos/20170726_Canon EOS 7D_204.jpg
+  - image: /images/photos/20170726_Canon EOS 7D_205.jpg
+  - image: /images/photos/20170727_Canon EOS 7D_159.jpg
+  - image: /images/photos/20170727_Canon EOS 7D_576.jpg
+  - image: /images/photos/20171225_Canon EOS 7D_-3.jpg
+  - image: /images/photos/20181203_Canon EOS 7D_129.jpg
+  - image: /images/photos/20181203_Canon EOS 7D_152.jpg
+  - image: /images/photos/20181203_Canon EOS 7D_413.jpg
+  - image: /images/photos/20181205_Canon EOS 7D_-6.jpg
+  - image: /images/photos/20181205_Canon EOS 7D_573.jpg
+  - image: /images/photos/IMG_0164.jpg
+  - image: /images/photos/IMG_0196.jpg
