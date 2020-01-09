@@ -8,10 +8,11 @@ photos:
 ---
 
 <ul class="gallery">
-	{% for photo in page.photos %}
-		<li style="background-image: url('{{ site.baseurl }}{{ photo.image }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
-	{% endfor %}
-
+  {% for photo in page.photos %}
+  <li>
+      <img src="{{ site.baseurl }}{{ photo.image }}" alt="{{ photo.caption}}"/>
+  </li>
+  {% endfor %}
 </ul>
 
 <div class="overlay">
