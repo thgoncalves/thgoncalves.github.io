@@ -75,6 +75,7 @@ You can select multiple values:
 myList[2:5]
 ```
 ['McCoy', 'Scott', 'Uhura']
+
 Note that Slicing #includes# the first element (position 2) and # excludes the last element (position 5)
 
 You can skip every other position:
@@ -99,6 +100,7 @@ There is a handy dandy way to print LOTS of dashes:
 print('-'*100')
 ```
 '----------------------------------------------------------------------------------------------------'
+
 There you go. A ton of '-'
 
 ## 5) Enumerate
@@ -151,8 +153,8 @@ for i in range(0,10):
     time.sleep(0.5)
 print('')
 ```
-0 1 2 3 4 5 6 7 8 9
-CPU times: user 11.2 ms, sys: 3.93 ms, total: 15.2 ms
+0 1 2 3 4 5 6 7 8 9</br>
+CPU times: user 11.2 ms, sys: 3.93 ms, total: 15.2 ms</br>
 Wall time: 5.03 s
 
 The function above counts from 0 to 9 and waits 0.5 seconds on each iteration. At the end of the code, you can see the output of the %%time function displaying a Wall time of about 5 seconds
@@ -173,12 +175,12 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
       print(i)
       %time time.sleep(0.5)
   ```
-  0
-  CPU times: user 1.37 ms, sys: 1.64 ms, total: 3.01 ms
-  Wall time: 504 ms
-  1
-  CPU times: user 1.18 ms, sys: 249 µs, total: 1.43 ms
-  Wall time: 504 ms
+  0</br>
+  CPU times: user 1.37 ms, sys: 1.64 ms, total: 3.01 ms</br>
+  Wall time: 504 ms</br>
+  1</br>
+  CPU times: user 1.18 ms, sys: 249 µs, total: 1.43 ms</br>
+  Wall time: 504 ms</br>
 
   We can see that each sleep code took about 500ms, exactly what it should've taken
 
@@ -194,15 +196,15 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
       time.sleep(0.1)
   print('')
   ```
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  0 1 2 3 4 5 6 7 8 9
-  1.04 s ± 434 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  0 1 2 3 4 5 6 7 8 9</br>
+  1.04 s ± 434 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)</br>
 
   - On a code without a sleep function, this is what we get
   ``` python
@@ -212,7 +214,7 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
   for i in range(0,10):
       pass
   ```
-  569 ns ± 2.69 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+  569 ns ± 2.69 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)</br>
   - This time, the code ran for a total of 1.000.000 loops
 
 ## 9) Print on the same line
