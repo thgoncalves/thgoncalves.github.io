@@ -19,7 +19,7 @@ Sometime we just want unique values from a list. There is a simple way to do tha
 
 Sets are just like Lists and Tuples, with the difference that they cannot have multiple occurrences of the same element and store unordered values.
 
-More information on Sets can be found here, on the official doc page: https://docs.python.org/2/library/sets.html
+More information on Sets can be found here, on the official doc page: https://docs.python.org/2/library/sets.html[link](https://docs.python.org/2/library/sets.html)
 
 ``` python
 x = [1,2,2,3,2,4,5,3,5,6]
