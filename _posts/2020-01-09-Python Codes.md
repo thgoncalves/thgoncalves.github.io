@@ -99,9 +99,9 @@ There is a handy dandy way to print LOTS of dashes:
 ``` python
 print('-'*100')
 ```
-'----------------------------------------------------------------------------------------------------'
+"----------------------------------------------------------------------------------------------------"
 
-There you go. A ton of '-'
+There you go. A ton of "-"
 
 ## 5) Enumerate
 
@@ -112,13 +112,19 @@ There is a handy dandy way to print LOTS of dashes:
 for counter, item in enumerate(myList):
     print(counter ,' - ',item)
 ```
-0  -  Kirk</br>
-1  -  Spock</br>
-2  -  McCoy</br>
-3  -  Scott</br>
-4  -  Uhura</br>
-5  -  Chekov</br>
-6  -  Sulu</br>
+0  -  Kirk
+
+1  -  Spock
+
+2  -  McCoy
+
+3  -  Scott
+
+4  -  Uhura
+
+5  -  Chekov
+
+6  -  Sulu
 
 ## 6) Enhancing Print function
 
@@ -153,8 +159,10 @@ for i in range(0,10):
     time.sleep(0.5)
 print('')
 ```
-0 1 2 3 4 5 6 7 8 9</br>
-CPU times: user 11.2 ms, sys: 3.93 ms, total: 15.2 ms</br>
+0 1 2 3 4 5 6 7 8 9
+
+CPU times: user 11.2 ms, sys: 3.93 ms, total: 15.2 ms
+
 Wall time: 5.03 s
 
 The function above counts from 0 to 9 and waits 0.5 seconds on each iteration. At the end of the code, you can see the output of the %%time function displaying a Wall time of about 5 seconds
@@ -175,7 +183,8 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
       print(i)
       %time time.sleep(0.5)
   ```
-  0</br>
+
+  0
   CPU times: user 1.37 ms, sys: 1.64 ms, total: 3.01 ms</br>
   Wall time: 504 ms</br>
   1</br>
