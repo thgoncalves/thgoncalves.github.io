@@ -112,7 +112,7 @@ photos:
 <ul class="gallery">
   {% for photo in page.photos %}
 
-      <img src="{{ site.baseurl }}{{ photo.image }}" alt="{{ photo.caption}}"/>
+      <li><img src="{{ site.baseurl }}{{ photo.image }}" alt="{{ photo.caption}}"/></li>
 
   {% endfor %}
 </ul>
