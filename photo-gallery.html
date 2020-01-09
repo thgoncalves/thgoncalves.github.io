@@ -112,7 +112,7 @@ photos:
 <ul class="gallery">
   {% for photo in page.photos %}
 
-      <img src="http://images.weserv.nl/?{{ site.baseurl }}{{ photo.image }}&w=200&h=200" alt="{{ photo.caption}}"/>
+      <img src="{{ site.baseurl }}{{ photo.image }}&w=200&h=200" alt="{{ photo.caption}}"/>
 
   {% endfor %}
 </ul>
