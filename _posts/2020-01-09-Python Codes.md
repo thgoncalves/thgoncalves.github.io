@@ -176,7 +176,7 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
 2) %time (one %)
   - This also displays execution time but only for the code that preceeds it and not for the entire cell
   - here is an example using the same function
-  
+
   ``` python
   import time
 
@@ -186,17 +186,24 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
   ```
 
   0
-  CPU times: user 1.37 ms, sys: 1.64 ms, total: 3.01 ms</br>
-  Wall time: 504 ms</br>
-  1</br>
-  CPU times: user 1.18 ms, sys: 249 µs, total: 1.43 ms</br>
-  Wall time: 504 ms</br>
+
+  CPU times: user 1.37 ms, sys: 1.64 ms, total: 3.01 ms
+
+  Wall time: 504 ms
+
+  1
+
+  CPU times: user 1.18 ms, sys: 249 µs, total: 1.43 ms
+
+  Wall time: 504 ms
+
 
   We can see that each sleep code took about 500ms, exactly what it should've taken
 
 3) %timeit
   - This one is a little bit different. It evaluates the code over multiple runs and depends on the code it self.
   - On the example above:
+
   ``` python
   %%timeit
   import time
@@ -206,17 +213,27 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
       time.sleep(0.1)
   print('')
   ```
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  0 1 2 3 4 5 6 7 8 9</br>
-  1.04 s ± 434 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)</br>
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  0 1 2 3 4 5 6 7 8 9
+
+  1.04 s ± 434 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)
 
   - On a code without a sleep function, this is what we get
+
   ``` python
   %%timeit
   import time
@@ -224,7 +241,9 @@ There are 3 main variation of the Magic Function _time_. Bellow I'll explain the
   for i in range(0,10):
       pass
   ```
-  569 ns ± 2.69 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)</br>
+
+  569 ns ± 2.69 ns per loop (mean ± std. dev. of 7 runs, 1000000 loops each)
+
   - This time, the code ran for a total of 1.000.000 loops
 
 ## 9) Print on the same line
@@ -233,10 +252,12 @@ Going back to the print function, there is a few handy options that may be of he
 
 Print on the same line: You can define how the Print statement will end. The default value is \n (new line character).
 If you force the end attribute to be, for example ' ' (space), the print will not go to the next line. Instead it will just add a space and print the next value (if inside a loop).
+
 ``` python
 for i in range(0,10):
     print(i, end=' ')
 ```
+
 0 1 2 3 4 5 6 7 8 9
 
 
