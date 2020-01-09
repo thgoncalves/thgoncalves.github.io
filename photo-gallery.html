@@ -1,9 +1,9 @@
 ---
 layout: default
 photos:
-  - image: /images/photos/IMG_0164_reduced.jpg
+  - image: /images/photos/IMG_0164_reduced1.jpg
     caption: Building 1
-  - image: /images/photos/IMG_0196_reduced.jpg
+  - image: /images/photos/IMG_0196_reduced1.jpg
     caption: Building 2
 ---
 
@@ -11,7 +11,6 @@ photos:
   {% for photo in page.photos %}
 
       <img src="{{ site.baseurl }}{{ photo.image }}" alt="{{ photo.caption}}"/>
-      <li style="background-image: url('{{ site.baseurl }}{{ photo.image | resize: "800x800>" }}')"><a title="{{ photo.caption }}" href="{{ site.baseurl }}{{ photo.image }}" data-id="#{{ photo.image | slugify }}" data-caption="{{ photo.caption }}"></a></li>
 
   {% endfor %}
 </ul>
