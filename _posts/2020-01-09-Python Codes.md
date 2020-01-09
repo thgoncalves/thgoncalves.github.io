@@ -19,18 +19,83 @@ Sometime we just want unique values from a list. There is a simple way to do tha
 
 Sets are just like Lists and Tuples, with the difference that they cannot have multiple occurrences of the same element and store unordered values.
 
-More information on Sets can be found here, on the official doc page: https://docs.python.org/2/library/sets.html[link](https://docs.python.org/2/library/sets.html)
+More information on Sets can be found here, on the official doc page: [https://docs.python.org/2/library/sets.html](https://docs.python.org/2/library/sets.html)
 
 ``` python
-x = [1,2,2,3,2,4,5,3,5,6]
-print(x)
+myList = [1,2,2,3,2,4,5,3,5,6]
+print(myList)
 ```
 
 [1, 2, 2, 3, 2, 4, 5, 3, 5, 6]
 
 ``` python
-x = set(x)
-print(x)
+myList_uniques = set(myList)
+print(myList_uniques)
 ```
 
 {1, 2, 3, 4, 5, 6}
+
+## Checking duplications on a List
+
+We can also use Sets to check if there are duplications on our list by checking the length of the original list and the length of that list. If they are the same, no duplications exists.
+
+``` python
+len(myList) == len(myList_uniques)
+```
+False
+
+If the result is 'False', then the list has duplications.
+
+
+## Slicing
+
+Slicing is a important function to apply on list in general. It is used to select parts of the list rather then the entire object.
+
+Here is our list
+``` python
+myList = ['Kirk', 'Spock', 'McCoy', 'Scott', 'Uhura', 'Chekov', 'Sulu']
+```
+
+You can select a single value:
+``` python
+myList[0:1]
+```
+['Kirk']
+
+You can also omit the zero for a cleaner code:
+``` python
+myList[:1]
+```
+['Kirk']
+
+You can select multiple values:
+``` python
+myList[2:5]
+```
+['McCoy', 'Scott', 'Uhura']
+Note that Slicing #includes# the first element (position 2) and # excludes the last element (position 5)
+
+You can skip every other position:
+``` python
+myList[:7:2]
+```
+['Kirk', 'McCoy', 'Uhura', 'Sulu']
+
+You can go backwards in the list:
+``` python
+myList[::-1]
+```
+['Sulu', 'Chekov', 'Uhura', 'Scott', 'McCoy', 'Spock', 'Kirk']
+
+## Repeating a String
+
+Personally I use a lot a #Print# statements while working on Python and sometimes I need a way to separate all the print that are being displayed.
+For that, I often use print('---'), but I also don't like to keep pressing '-' until I am satisfied.
+
+There is a handy dandy way to print LOTS of dashes:
+``` python
+print('-'*100')
+```
+----------------------------------------------------------------------------------------------------
+
+There you go. A ton of '-'
