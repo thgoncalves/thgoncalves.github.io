@@ -15,8 +15,24 @@ On this post, I'll show 10 snippets that can help you solve simple problems easi
 
 ## Unique values on a list
 
-{% highlight Jupyter %}
-  x = [1,2,2,3,2,4,5,3,5,6]
-  x = set(x)
-  print(x)
-{% endhighlight %}
+Sometime we just want unique values from a list. There is a simple way to do that and it is using SET. On Python Sets.
+
+Sets are just like Lists and Tuples, with the difference that they cannot have multiple occurrences of the same element and store unordered values.
+
+More information on Sets can be found here, on the official doc page: https://docs.python.org/2/library/sets.html
+
+```python
+x = [1,2,2,3,2,4,5,3,5,6]
+print(x)
+```
+
+    [1, 2, 2, 3, 2, 4, 5, 3, 5, 6]
+
+
+
+```python
+x = set(x)
+print(x)
+```
+
+    {1, 2, 3, 4, 5, 6}
