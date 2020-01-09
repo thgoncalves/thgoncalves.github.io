@@ -10,7 +10,9 @@ images:
 <ul class="gallery">
   {% for images in page.images %}
   <li>
+      <a href="www.google.com">
       <img src="{{ site.baseurl }}{{ image.image_path }}" alt="{{ image.title}}"/>
+      </a>
   </li>
   {% endfor %}
 </ul>
