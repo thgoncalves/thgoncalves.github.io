@@ -107,7 +107,6 @@ There you go. A ton of "-"
 
 Sometimes you may want to iterate over a list and you also need to get its position. We can use Enumerate for that:
 
-There is a handy dandy way to print LOTS of dashes:
 ``` python
 for counter, item in enumerate(myList):
     print(counter ,' - ',item)
