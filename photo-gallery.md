@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Photo galery
-permalink: /photo-galery/
+permalink: /photo-gallery/
 ---
 
 I like taking photos from around the world.
